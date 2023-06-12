@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans' sans-serif;
+}
+.company{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/caleb-ruiter-EmEQ6kK_5P0-unsplash\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+} 
+ nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+ }
+ .logo{
+    color: black;
+    font-size: 28px;
+    font:bold;
+    font-style:calc()
+    
+ }
+ nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+ }
+ nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ nav ul li a:hover{
+    color: black;
+    transition: .3s;
+ }
+ button{
+    border:none;
+    padding: 10px 0;
+    border-radius: 3PX;
+    color:black;
+    font-weight: bold;
+    font-size: 15PX;
+    transition: .4S;
+    margin-top: 4px;
+    cursor: pointer;
+    width:100%;
+ }
+ .footer{
+   background:gray;
+   bottom: o;
+   left: 0;
+   right: 0;
+   height: auto;
+   width: 100vw;
+   padding-top: 20px;
+
+ }
+ .footer-content{
+   color: black;
+   align-items: center;
+   text-align: center;
+ }
+ .footer-logo{
+   padding: 0.5%;
+   cursor: pointer;
+   align-items: center 10px;
+   text-align: center;
+ }
+ .footer-logo img{
+   width: 30px;
+   height: 30px;
+ }
+ .About{
+   padding: 50px;
+   font-size: xx-large;
+   color: white;
+   font-weight: bold;
+   
+ }
+ .About img{
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+   clip-path: circle();
+   align-items: center;
+ }
+ .contact{
+   color:solid black;
+   font-weight: bold;
+   padding: 1%;
+   cursor: pointer;
+   
+ }
+.contact :hover{
+   color:aliceblue;
+   transition: .3s;
+}
+.form{
+   display: flex;
+   border:none;
+    background: aliceblue;
+    padding: 6px 18px;
+    border-radius: 30PX;
+    color: rgb(61, 83, 82);
+    font-weight: bold;
+}
+.container{
+   width: 360px;
+   background-color:linear-gradient(to right,rgb(61, 83, 82),rgb(101, 202, 62));
+   box-shadow: 0 0 8px rgba(250,250,250,0.6);
+   opacity: o.6;
+}
+.container form{
+   width: 100%;
+   text-align: center;
+   padding: 25px 20px;
+}
+form.id{
+   position: relative;
+}
+form input{
+   width:100%;
+   height: 50px;
+   margin:4px o;
+   border:1px solid #5c5c5c;
+   border-radius: 3px;
+   padding: 0 15px;
+   font-size: 20px;
+}
+form textarea{
+   padding: 5px 15px;
+   border:1px solid #5c5c5c;
+   border-radius: 3px;
+   padding: 0 15px;
+   font-size: 20px;
+   width:100%;
+   margin: 4px 0;
+}
+.team-members{
+   padding:8.5%;
+   object-fit: cover;
+   text-align: center;
+   cursor: pointer;
+   color: white;
+   font-size: medium;
+}
